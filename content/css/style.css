@@ -1,0 +1,82 @@
+html,body{background:#000;}
+.btn-group-justified>.btn-group .dropdown-menu{width:100%;}
+.btn-group-justified{margin:1% auto;}
+.activeButton{color:#000;background-color:#137188;font-size:1vw;font-weight:bold;background-image:none;border-color:#d0f6ff;}
+.questionAndAnswers{padding:15px;width:30%;background:#fffaba;display:inline-table;border-radius:10px;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f0f9ff+0,cbebff+47,a1dbff+100;Blue+3D+%2313 */
+background: rgb(240,249,255); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(240,249,255,1) 0%, rgba(203,235,255,1) 47%, rgba(161,219,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=0 ); /* IE6-9 */}
+.questionAndAnswers h1{font-size:24px;height:4vw;color:#000;font-weight:bold;text-align:center;width:100%;}
+.questionAndAnswers h2 button{font-size:22px;color:#000;text-align:center;width:44%;margin:3%;float:left;display:block;font-weight:bold;padding:2%;outline:0;border:0;box-shadow:4px 5px 8px #888888;}
+.questionAndAnswers h2 button:hover, .questionAndAnswers h2 button:focus{opacity:0.7;background:darkgray;}
+.defaultColor{background:#fff;}
+.green{background:rgb(99, 255, 99) !important;}
+.red{background:#e65d5d !important;}
+.disableButton{pointer-events:none;}
+.btn-group , .hide-false{display:block;}
+.hide-true{display:none;}
+.breakRecord{margin:0 auto;text-align:center;display:block;background:rgba(0, 126, 255, 0.58);color:#000;font-weight:bold;text-shadow:none;font-size:16px;}
+.modal-content{padding:5%;}
+.btn-group>.btn:active{background:#000;color:#fff;}
+#bg-justified-dropdown{}
+.slick-slider{width:50%;margin:3% auto;overflow:hidden;}
+.slick-list{height:100%;}
+.dropdown-menu{padding:0px;width:60%;margin:4% auto;position:absolute;left:0;right:0;top:0;}
+.dropdown-menu li{text-align:center;background:#95f4ff;border-bottom:2px solid #000;}
+.dropdown-menu li a{font-weight:bold;height:100%;width:100%;padding:0% 24%;font-size:1.5vw;text-align:-webkit-center;text-align:justify;}
+.selectGame{font-size:16px;color:#fff;text-align:center;margin-top:2vw;}
+.selectGame span{color:red;font-weight:bold;}
+.points{color:#fff;font-size:36px;right:le;left:15%;top:16%;}
+.timer{color:#fff;margin:0px;left:0;margin:2% auto;right:0;text-align:center;}
+.restart{display:block;padding:3% 10%;font-size:22px;border:0;color:#000;cursor:pointer;border-radius:100px;position:absolute;background:#ff7600;right:0px;bottom:7%;width:100px;text-align:center;left:0px;margin:0 auto;}
+.animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both;}
+.start{padding:0vw 3vw;display:none;border-radius:20px;color:#000;outline:0;margin:0 auto;font-size:24px;margin:3% auto 0% !important;background:#ffffff;clear:both;}
+.questionNum{text-align:center;color:#fff;}
+.rightAnswers{color:#fff;width:50%;text-align:center;float:left;}
+.gameInfo{margin:0 auto;width:50%;}
+.rightAnswers span{color:rgb(99, 255, 99);}
+.start:focus{outline:0 !important;}
+.btn-group-vertical>.btn, .btn-group>.btn{font-weight: bold;border-radius:5px !important;position:inherit;float:none;width: 100%;
+    margin: 1%;}
+.btn-group{margin:2% auto;text-align:center;    width: 50%;}
+ button.btn.btn-info:focus, button.btn.btn-info:active, button.btn.btn-info:visited{background:rgb(38, 90, 136);outline:0;color:#fff;}
+ .startOpen{background:#62ddf9;font-size:40px;display:block;}
+ .modalRecord{font-size:1vw;text-align:center; font-weight: bold;}
+ .modalRecord p , .modalRecord span{color:red;}
+ .flipInX{-webkit-backface-visibility:visible!important;backface-visibility:visible!important;-webkit-animation-name:flipInX;animation-name:flipInX;}
+ .info{z-index:2;background:rgba(0, 0, 0, 0.78);position:fixed;right:0;bottom:0;height:20%;border-radius:10px;padding:1%;}
+ .title{    font-size: 30px;
+    color: #49b8da;
+    text-align: center;
+    margin-top: 2vw;    text-decoration: underline;}
+    .btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle){
+      border-top-right-radius:5px;
+      border-bottom-right-radius:5px;
+    }
+ @media only screen and (max-width:768px){
+   .questionAndAnswers{margin:0% auto;display:block;}
+ .modalRecord{font-size:initial;}
+ .btn-group ,.gameInfo{width: 100%;}
+ .btn-group-justified{width:90%;}
+ .info{width:100%;height:8%;}
+ .points{font-size:22px;position:absolute;left:5%;}
+ .timer{position:absolute;font-size:22px;bottom:2%}
+ .restart{left:inherit;right:4%;padding:1%;bottom:initial;top:16%;}
+ .questionAndAnswers h1{height:12vw;}
+ .slick-slider{width: 96%;}
+ .questionsLevel{top:250px;}
+ .dropdown-menu{margin:9% auto;width:100%;}
+ .questionAndAnswers h2 button{width: 100%;      margin: 3% 0%;  padding: 2% 0%;}
+ .questionsType, .rightAnswers{width:100%; margin: 1% auto;}
+ .dropdown-menu li{height:10vw;}
+ .start{width:100%;padding:10vw;}
+ .dropdown-menu li a{font-size:24px;padding:0% 6%;}
+ body{overflow-x: hidden;}
+}
+@keyframes pulse{from{transform:scale3d(1, 1, 1);}
+ 50%{transform:scale3d(1.05, 1.05, 1.05);}
+ to{transform:scale3d(1, 1, 1);}
+}
+.pulse{animation-name:pulse;}
